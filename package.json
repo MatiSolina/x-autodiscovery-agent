@@ -1,0 +1,38 @@
+{
+  "name": "x-autodiscovery-agent",
+  "version": "1.0.0",
+  "description": "Autonomous eve agent that watches @vercel on X and keeps the x-autodiscovery skill up to date — fork it to build your own skill-updater bot",
+  "license": "Apache-2.0",
+  "author": "Matías Solina (https://github.com/MatiSolina)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiSolina/x-autodiscovery-agent.git"
+  },
+  "keywords": [
+    "eve",
+    "agent",
+    "vercel",
+    "agent-skills",
+    "skills",
+    "ai",
+    "autonomous-agent"
+  ],
+  "private": true,
+  "type": "module",
+  "engines": { "node": "24.x" },
+  "scripts": {
+    "dev": "eve dev",
+    "build": "eve build",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "ai": "^7.0.15",
+    "eve": "^0.20.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
+  }
+}

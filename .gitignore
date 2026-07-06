@@ -1,0 +1,11 @@
+.env
+.superpowers/
+.vercel
+node_modules/
+.output/
+.eve/
+.workflow-data/
+.env*
+.deepsec/
+.claude/
+skills-lock.json
